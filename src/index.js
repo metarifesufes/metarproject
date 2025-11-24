@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './Pages/Home';
+import 'primereact/resources/themes/lara-light-blue/theme.css'; // Tema (pode trocar)
+import 'primereact/resources/primereact.min.css';                // Estilos base dos componentes
+import 'primeicons/primeicons.css';                              // Ícones
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>
 );
 
