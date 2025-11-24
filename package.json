@@ -27,6 +27,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://metarifesufes.github.io/metarproject",
   "browserslist": {
     "production": [
       ">0.2%",
